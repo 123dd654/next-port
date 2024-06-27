@@ -1,11 +1,12 @@
 @import '@/assets/scss/mixin';
+
 #header {
     @include position-fixed;
     z-index: 10000;
 
     .header__inner {
         @include flex-between;
-        background-color: rgba(63, 77, 52, 0.8);
+        background-color: #fabfba;   
         backdrop-filter: blur(15px);
         padding: 1rem;
 
@@ -148,7 +149,7 @@
         justify-content: flex-end;
         flex-direction: column;
         padding: 16px;
-        background-color: #3f4d34;
+        background-color: #fbc9c4;   
 
         .intro__title {
             font-size: 10vw;
@@ -201,7 +202,7 @@
             width: 100%;
             height: 40vh;
             background-color: var(--white);
-            color: #3f4d34;
+            color: #fbc9c4;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -239,7 +240,7 @@
 
 #skill {
     min-height: 900px;
-    background-color: #3f4d34;
+    background-color: #fbc9c4;   
 }
 .skill__inner {
     padding: 16px;
@@ -315,6 +316,7 @@
 
 .site__inner {
     padding: 16px;
+    background-color: #fbc9c4; 
 
     .site__title {
         position: sticky;
@@ -327,8 +329,8 @@
         line-height: 1.6;
         font-family: var(--mainKor-font);
         text-transform: uppercase;
-        color: var(--black100);
-        border-bottom: 0.4vw solid var(--black100);
+        color: var(--white);
+        border-bottom: 0.4vw solid var(--white);
         margin-bottom: 100px;
 
         @media (max-width: 800px) {
@@ -470,6 +472,7 @@
     width: 100%;
     margin-top: 30vh;
     overflow: hidden;
+    background-color: #fbc9c4; 
 }
 .port__inner {
     padding: 16px;
@@ -482,8 +485,8 @@
         line-height: 1.6;
         font-family: var(--mainKor-font);
         text-transform: uppercase;
-        color: var(--black100);
-        border-bottom: 0.4vw solid var(--black100);
+        color: var(--white);
+        border-bottom: 0.4vw solid var(--white);
         margin-bottom: 16px;
         text-indent: -0.26vw;
 
@@ -611,6 +614,7 @@
         white-space: nowrap;
         text-indent: -0.5vw;
         letter-spacing: -0.3vw;
+        color: var(--white); 
 
         @media (max-width: 800px) {
             display: none;
@@ -619,8 +623,8 @@
     .contact__text {
         width: 100%;
         height: 40vh;
-        background-color: var(--black);
-        color: var(--white);
+        background-color: var(--white);
+        color: #fbc9c4; 
         display: flex;
         align-items: center;
         justify-content: center;
@@ -653,7 +657,7 @@
             display: block;
             width: 100%;
             height: 1px;
-            background-color: var(--black);
+            background-color: var(--white);
             margin-bottom: 0.5vw;
 
             &:nth-child(1) {

@@ -198,12 +198,12 @@ export const footerText = [
     {
         title: 'github',
         desc: '깃헙에 오시면 더 많은 소스를 볼 수 있습니다.',
-        link: 'https://github.com/webstoryboy'
+        link: 'https://github.com/123dd654'
     },
     {
         title: 'blog',
         desc: '블러그에 오시면 더 많은 정보를 볼 수 있습니다.',
-        link: 'https://webstoryboy.co.kr'
+        link: 'https://123dd654.github.io/'
     },
     {
         title: 'gsap',
